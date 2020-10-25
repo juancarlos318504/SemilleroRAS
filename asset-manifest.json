@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/SemilleroRAS/static/css/main.6a6b2288.chunk.css",
+    "main.js": "/SemilleroRAS/static/js/main.c0fb2720.chunk.js",
+    "main.js.map": "/SemilleroRAS/static/js/main.c0fb2720.chunk.js.map",
+    "runtime-main.js": "/SemilleroRAS/static/js/runtime-main.aef47f33.js",
+    "runtime-main.js.map": "/SemilleroRAS/static/js/runtime-main.aef47f33.js.map",
+    "static/js/2.750cd9e9.chunk.js": "/SemilleroRAS/static/js/2.750cd9e9.chunk.js",
+    "static/js/2.750cd9e9.chunk.js.map": "/SemilleroRAS/static/js/2.750cd9e9.chunk.js.map",
+    "index.html": "/SemilleroRAS/index.html",
+    "precache-manifest.8236fbfa5a9a21c69fcc4e17970f7554.js": "/SemilleroRAS/precache-manifest.8236fbfa5a9a21c69fcc4e17970f7554.js",
+    "service-worker.js": "/SemilleroRAS/service-worker.js",
+    "static/css/main.6a6b2288.chunk.css.map": "/SemilleroRAS/static/css/main.6a6b2288.chunk.css.map",
+    "static/js/2.750cd9e9.chunk.js.LICENSE.txt": "/SemilleroRAS/static/js/2.750cd9e9.chunk.js.LICENSE.txt",
+    "static/media/LogoSIR.svg": "/SemilleroRAS/static/media/LogoSIR.097a36f2.svg",
+    "static/media/Logo_UAO.svg": "/SemilleroRAS/static/media/Logo_UAO.9c698f83.svg",
+    "static/media/videobg.mp4": "/SemilleroRAS/static/media/videobg.0bc629aa.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aef47f33.js",
+    "static/js/2.750cd9e9.chunk.js",
+    "static/css/main.6a6b2288.chunk.css",
+    "static/js/main.c0fb2720.chunk.js"
+  ]
+}
