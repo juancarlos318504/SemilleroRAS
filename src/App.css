@@ -1,0 +1,102 @@
+:root{
+  /*-----------colores-----------*/
+  --first_color: rgb(62,22,134);
+  --second_color: rgb(139,49,121);
+  --first_color_header: rgba(62,22,134,0.8);
+  --second_color_header: rgba(139,49,121,0.8);
+  --triangle_color: white;
+  --header_color_text: white;
+  --menu_option_active_color:white;
+  --menu_option_hover_color: #A5A1AC;
+  --card_title_color:#5d5c5e;
+
+  --button_color: #3E1686;
+  --button_text_color: white;
+  --button_hover_color: white;
+  --button_text_hover_color: #8B3179;
+
+  --overlay_notice_image:  rgba(62,22,134,.5);
+
+  --footer_background_color: #0A113F;
+  --footer_text_color: #9A9A9A;
+  --footer_credit_text_color: #E4E0E0;
+  --footer_social_media_color: white;
+  --footer_social_media_color_hover: #8B3179;
+
+  --form_text_color: #9A9A9A;
+  --About_us_text_color:#323232;
+
+  
+    /*----------móvil----------*/
+  --menu_button_color:white;
+  --text_menu_color: white;
+  --first_menu_bg_color: rgba(238,101,77,1);
+  --second_menu_bg_color:rgba(64,41,109,1);
+
+    /*----------móvil----------*/
+
+/*-------------------------------------------------------------------------------*/
+
+    /*-----------colores-----------*/
+  --first_color: rgb(150,0,0);
+  --second_color: rgb(0,0,0);
+  --first_color_header: rgba(150,0,0,0.9);
+  --second_color_header: rgba(0,0,0,0.9);
+  --triangle_color: white;
+  --header_color_text: white;
+  --menu_option_active_color:white;
+  --menu_option_hover_color: rgb(200,0,0);
+  --card_title_color:rgb(130,0,0);
+
+  --button_color: rgb(130,0,0);
+  --button_text_color: white;
+  --button_hover_color: white;
+  --button_text_hover_color:rgb(45,0,0);
+
+  --overlay_notice_image:  rgba(80,0,0,0.5);
+
+  --footer_background_color: rgb(30,0,0);;
+  --footer_text_color: #9A9A9A;
+  --footer_credit_text_color: #E4E0E0;
+  --footer_social_media_color: white;
+  --footer_social_media_color_hover: rgb(200,0,0);
+
+  --form_text_color: #5d5c5e;
+  --About_us_text_color:#323232;
+
+  
+    /*----------móvil----------*/
+  --menu_button_color:white;
+  --text_menu_color: white;
+  --second_menu_bg_color: rgb(246,170,28);
+  --first_menu_bg_color:rgb(188,57,8);
+
+    /*----------móvil----------*/
+
+  /*-----------colores-----------*/
+
+
+  /*-----------fuentes-----------*/
+  --header_font: 'Segoe UI';
+  /*-----------fuentes-----------*/
+}
+
+
+.App {
+  text-align: center;
+  overflow-x: hidden;
+  min-width: 360px;
+  background-color: var(--triangle_color);
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+

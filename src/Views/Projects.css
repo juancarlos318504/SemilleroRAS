@@ -1,0 +1,7 @@
+.o-projects-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    margin: 2em 0 0;
+}

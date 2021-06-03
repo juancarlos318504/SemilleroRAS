@@ -1,0 +1,228 @@
+.o-maps{
+    padding: 0;
+    margin: 0;
+    width: 45%;
+}
+
+.o-maps iframe{
+    border: 0;
+    width: 100%;
+    height: 76vh;
+}
+
+.o-card-contact{
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: white;
+    z-index: 1;
+    width: 90%;
+    border-radius: 1em;
+    justify-content: space-between;
+}
+
+.o-card-contact-text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.o-card-content-text{
+    display: flex;
+    text-align: left;
+    margin: 2em 0 0em 0;
+}
+
+.o-card-text{
+    width: 30%;
+    margin: 0 .5em;
+    
+    border-width: .2em .2em .2em 0;
+    border-style: solid;
+    border-image: linear-gradient(to left,var(--first_color), var(--second_color)) 1 100%;   
+}
+
+.o-card-text:last-child{
+    border: none;
+}
+
+.o-card-text p{
+    margin: 0 1em 0 0;
+}
+
+.o-card-text h2{
+    margin-top: 0;
+    color: var(--button_color);
+}
+
+
+.o-form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3em 0 1em 0;
+}
+
+
+.o-form-contact input[type=text], select {
+    color:var(--form_text_color);
+    font-size: 1em;
+    font-weight: 600;
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: .1em solid white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+.o-form-contact input[type=email], select {
+    color:var(--form_text_color);
+    font-size: 1em;
+    font-weight: 600;
+    width:90%;
+    padding: 12px 20px;
+    margin: 8px;
+    display: inline-block;
+    border: .1em solid white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 1em;
+    box-sizing: border-box;
+}
+
+ .o-form-contact input[type=submit] {
+    align-self:flex-end;
+    font-size: 1em;
+    font-weight: 600;
+    width: 20%;
+    background: linear-gradient(to bottom right,var(--first_color),var(--second_color));
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 2em;
+    border: none;
+    border-radius: 5em;
+    cursor: pointer;
+    
+}
+
+
+.o-form-contact textarea {
+   
+    margin: 8px 10px;
+    padding: 12px 20px;
+    font-family: 'Segoe UI';
+    color:var(--form_text_color);
+    font-size: 1em;
+    font-weight: 600;
+    width: 82%;
+    height: 10vh;
+    border: .1em solid white;
+    border-radius: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+@media only screen and (max-width: 767px){
+    .o-maps{
+        width: 100%;
+    }
+    
+    .o-maps iframe{
+        height: 45vh;
+    }
+
+    .o-card-contact-text{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+  
+    .o-card-content-text{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin: 2em 0 0em 0;
+    }
+  
+    .o-card-text{
+        width: 100%;
+        margin: 1em ;
+        text-align: center;
+        border: none;    
+    }
+  
+    .o-card-text h2{
+        color: var(--button_color);
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .o-form-contact{
+        margin: 2em 0 1em 0;
+    }
+    
+    .o-form-contact input[type=submit] {
+        align-self:center;
+        width: 50%;
+        margin: 8px 1em;
+    }
+    
+    .o-form-contact textarea {
+        
+        margin: 8px 10px;
+        width: 75%;
+    } 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .o-maps{
+        width: 100%;
+    }
+    
+    .o-maps iframe{
+        height: 45vh;
+    }
+
+    .o-card-contact-text{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .o-card-content-text{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: left;
+        margin: 2em 0 0em 0;
+    }
+    
+    .o-card-text{
+        width: 100%;
+        margin: 1em ;
+        text-align: center;
+        border: none;    
+    }
+    
+    .o-card-text h2{
+        color: var(--button_color);
+        text-decoration: underline;
+        text-underline-position: under;
+    }
+
+    .o-form-contact{
+        margin: 2em 0 1em 0;
+    }
+    
+    .o-form-contact input[type=submit] {
+        align-self:center;
+        width: 50%;
+        margin: 8px 1em;
+    }
+    
+    .o-form-contact textarea {
+        margin: 8px 10px;
+        width: 85%;
+    }
+}

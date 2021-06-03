@@ -1,0 +1,196 @@
+body{
+  font-family: var(--header_font);
+}
+
+.o-content-header{
+  /*background:linear-gradient(to bottom right,var(--first_color),var(--second_color)),url("../Images/particles-white.jpg");*/
+  /*background:linear-gradient(to bottom right,var(--first_color),var(--second_color));*/
+  background: rgba(0, 0, 0, 1);
+  background-repeat: no-repeat;
+  background-size: auto;
+  color:var(--header_color_text);
+  overflow:hidden;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  display: flex;
+}
+
+.o-video-container{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  width: 100%; 
+  height: auto;
+  z-index: -1;
+}
+
+/* Add some content at the bottom of the video/page */
+.o-header-info {
+  position: relative;
+  /*background:linear-gradient(to bottom right,var(--first_color),var(--second_color)),url("../Images/particles-white.jpg");*/
+  /*background:linear-gradient(to bottom right,var(--first_color_header),var(--second_color_header));*/
+  background:linear-gradient(var(--second_color_header), var(--first_color_header));
+}
+
+
+.o-title-header{
+  font-size: 5em;
+  margin: 0;
+}
+
+.o-subtitle-header{
+  font-size: 1.5em;
+  margin-top: 1em;
+  font-weight: 400;
+  line-height: 0;
+}
+
+.o-subtitle2-header{
+  font-size: 1em;
+  margin-bottom: 2em;
+  font-weight: 400;
+}
+
+.o-subtitle3-header{
+  font-size: .8em;
+  margin: -.5em 0 3em 0;
+}
+
+.o-button{
+  padding: .8em 2em;
+  background-color: transparent;
+  color: var(--button_text_color);
+  border: 2px solid var(--button_text_color);
+  border-radius: 2em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.o-button:hover{
+  background-color: var(--button_text_color);
+  color: var(--button_text_hover_color);
+}
+
+.o-bg-triangle-container{
+  z-index: 0;
+  position: relative;
+  width: 100vw;
+  height: 40vh;
+  margin: 5em 0 0 0;
+}
+
+.o-bg-triangle-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 40vh solid var(--triangle_color);
+  border-right: 110vw solid transparent;
+}
+
+.o-bg-triangle-2 {
+  position: absolute;
+  top: 0;
+  left: 90vh;
+  width: 0;
+  height: 0;
+  border-bottom: 40vh solid var(--triangle_color);
+  border-left: 70vw solid transparent;
+}
+  
+  
+  @media only screen and (max-width: 320px){
+    .o-title-header{
+      font-size: 3em;
+    }
+    
+    .o-subtitle-header{
+      font-size: 1.2em;
+      line-height: 1;
+    }
+    
+    .o-bg-triangle-container{
+      height: 10vh;
+      margin: 1em 0 0 0;
+    }
+    
+    .o-bg-triangle-1 {
+      border-bottom: 10vh solid var(--triangle_color);
+      border-right: 70vw solid transparent;
+    }
+    
+    .o-bg-triangle-2 {
+      left: 35vh;
+      border-bottom: 10vh solid var(--triangle_color);
+      border-left: 50vw solid transparent;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 321px) and (max-width: 1024px){
+    .o-title-header{
+      font-size: 3em;
+    }
+
+    #myVideo {
+      width: auto; 
+      height: 100%;
+      z-index: -1;
+    }
+    
+    .o-subtitle-header{
+      font-size: 1.2em;
+      line-height: 1;
+    }
+    
+    .o-bg-triangle-container{
+      height: 10vh;
+      margin: 1em 0 0 0;
+    }
+    
+    .o-bg-triangle-1 {
+      border-bottom: 10vh solid var(--triangle_color);
+      border-right: 70vw solid transparent;
+    }
+    
+    .o-bg-triangle-2 {
+      left: 30vh;
+      border-bottom: 10vh solid var(--triangle_color);
+      border-left: 80vw solid transparent;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 1024px){
+    .o-title-header{
+      font-size: 5em;
+    }
+    
+    .o-subtitle-header{
+      font-size: 1.5em;
+      line-height: 1;
+    }
+    
+    .o-bg-triangle-container{
+      height: 15vh;
+      margin: 1em 0 0 0;
+    }
+    
+    .o-bg-triangle-1 {
+      border-bottom: 15vh solid var(--triangle_color);
+      border-right: 90vw solid transparent;
+    }
+    
+    .o-bg-triangle-2 {
+      left: 45vh;
+      border-bottom: 15vh solid var(--triangle_color);
+      border-left: 90vw solid transparent;
+    }
+  
+  }

@@ -1,0 +1,243 @@
+.o-close{
+    width: 5%;
+    height: 5%;
+    color: var(--button_color);
+    font-weight: 900;
+    font-size: 4em;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+   
+.o-close-2{
+    display: none;
+}
+
+.o-card-text-content{
+    margin: 0;
+    padding: 4em 2em 2em 2em;
+    width: 60%;
+    text-align: left;
+}
+
+.o-card-Content{
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    min-width: 100%;
+    height: 100%;
+}
+
+.o-backgroung-card{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    z-index: 0;
+    position: relative;
+    width: 45%;
+    margin: 0;
+    background:linear-gradient(to bottom right,var(--first_color),var(--second_color));
+}
+
+.o-card-image{
+    align-self: center;
+    z-index: 1;
+    width: 65%;
+}
+
+.o-bg-triangle-5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 100vh solid var(--triangle_color);
+    border-right: 10vw solid transparent;
+}
+
+.o-card-title{
+    text-transform: uppercase;
+    margin: .8em 0;
+    margin-bottom: .5em;
+    color:var(--first_color);
+    font-size: 2em;
+    font-weight: bolder;
+    height: 14%;
+}
+
+.o-description-content{
+    overflow-y: scroll;
+    padding-right: .5em;
+    height: 28%;
+}
+
+
+.o-description-content::-webkit-scrollbar {
+    width: .5em;
+}
+  
+  /* Track */
+.o-description-content::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.o-description-content::-webkit-scrollbar-thumb {
+    background: rgb(218, 218, 218); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.o-description-content::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+}
+
+.o-interactive-download{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.o-interactive-download h3{
+    margin: 0;
+    color: var(--first_color);
+}
+
+.o-card-download p{
+    margin: -.4em 0 1em 0;
+}
+
+.o-cardboar-image{          
+    margin-left: 2em;
+}
+
+.o-qr-image{
+    align-self: center;
+    width: 15%;
+    margin: 1em;
+}
+
+.o-card-download{
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.o-card-download .o-button-card{
+    margin: 0 20em;
+}
+   
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    .o-close{
+        display: none;
+    }
+
+    .o-close-2{
+        display: block;
+        z-index: 2;
+        align-self:flex-start;
+        color: var(--button_text_color);
+        margin:-.5em .5em;
+        width: 10%;
+        font-weight: 900;
+        font-size: 3em;
+        position: absolute;
+        margin-top: -2em;
+    }
+    
+    .o-card-Content{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center; 
+        align-self: flex-start;
+    }
+
+    .o-card-text-content{
+        margin-top: 5em;
+        padding: 0;
+        z-index: 2;
+        width: 90%;
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    .o-backgroung-card{
+        height: 35vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-top: 0;
+    }
+    
+    .o-card-image{
+        margin-top: -1em; 
+        width: auto;
+        height: 75%;
+    }
+    
+    .o-bg-triangle-5 {
+        z-index: 0;
+        height: 8em;  
+        border-bottom: 20vh solid var(--triangle_color);
+        border-right: 250vw solid transparent;
+    }
+    
+    .o-card-text-content .o-card-title{
+        margin-top: -4em;
+        margin-bottom: .5em;
+        font-size: 1.5em;
+    }
+
+    .o-description-content{
+        height: 14em;
+        padding: 0 .5em;
+    }
+    
+    .o-interactive-download{
+        margin-top: 2em;
+        font-size: 1em;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center; 
+    }
+
+    .o-interactive-download h3{
+        font-size: 1em;
+        margin-bottom: .5em;
+    }
+    
+    .o-cardboar-image{
+        align-self: center;
+        width: 15%;          
+        margin: 0 1em;
+    }
+    
+    .o-qr-image{
+        display: none;
+    }
+    
+    .o-card-download p{
+        display: none;
+    }
+
+    .o-card-download{
+        text-align: center; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .o-card-download .o-button-card{
+        align-self: center;
+        margin: 0 1em;
+    }
+
+}

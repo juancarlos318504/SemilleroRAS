@@ -1,0 +1,27 @@
+.o-gallery{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    overflow-x: hidden;
+    margin: 0;
+    width: 100%;
+}
+
+.o-images{
+    width: 85%;
+}
+
+@media only screen and (max-width: 767px){
+    .o-gallery{
+        margin: 2em 0 2em 0;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .o-gallery{
+        padding: 1em 5em 0 5em;
+    }
+
+}

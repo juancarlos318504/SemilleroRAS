@@ -1,0 +1,145 @@
+.o-text-content {
+    padding-right: .5em;
+    max-height: 68%;
+    margin-top: 1.5em;
+}
+
+.o-card-text-content-NP{
+    margin: 0;
+    padding: 4em 2em 1em 2em;
+    width: 50%;
+    text-align: left;
+}
+
+.o-date-publication{
+    color: var(--form_text_color);
+    font-size: .9em;
+}
+
+.o-text-description{
+    overflow-y: scroll;
+    margin: 0;
+    margin-right: -2em;
+    padding-right: 2em;
+    max-height: 23em;
+    box-sizing:border-box;
+}
+
+.o-popup-image{
+    align-self: center;
+    z-index: 1;
+    width: 60%;
+    margin-left: 3em;
+}
+
+.o-text-description::-webkit-scrollbar {
+    width: .5em;
+}
+  
+  /* Track */
+.o-text-description::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.o-text-description::-webkit-scrollbar-thumb {
+    background: rgb(218, 218, 218); 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.o-text-description::-webkit-scrollbar-thumb:hover {
+    background: gray; 
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px){
+    .o-popup-image{
+        margin: 0;
+        margin-top: -4em; 
+        width: auto;
+        max-width: 65%;
+        max-height: 70%;
+    }
+    .o-close-2{
+        margin-top: -4em;
+        margin-right: 10em;
+    }
+
+    .o-card-text-content-NP{
+        margin-top: 2em;
+        margin-bottom: 5em;
+        padding: 0;
+        z-index: 2;
+        width: 95%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    .o-text-content{
+        height: 6em;
+        padding: 0;    
+           
+    }
+
+    .o-text-content br{
+        display: none;
+    }
+
+    .o-card-title{
+        margin-top: -7em;
+        margin-bottom: 2em;
+        font-size: 1.2em;
+    }
+
+    .o-text-description{
+        padding: 1em 1em;
+        margin-top: 1em;
+        margin-right: .3em;
+        padding-bottom: 2em;
+        max-height: 21em;
+        text-align: justify;
+    }
+}
+
+
+@media only screen and (max-width: 320px){
+    .o-popup-image{
+        margin: 0;
+        margin-top: -1em; 
+        width: auto;
+        max-width: 10%;
+        max-height: 70%;
+    }
+
+    .o-card-text-content-NP{
+        margin-top: 2em;
+        padding: 0;
+        z-index: 2;
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    
+    .o-text-content{
+        height: 6em;
+        padding: 0;       
+    }
+
+    .o-text-content br{
+        display: none;
+    }
+
+    .o-text-description{
+        padding: 0 .5em;
+        margin-top: 1em;
+        margin-right: .3em;
+        padding-right: 1em;
+    }
+}
